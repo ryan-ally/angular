@@ -776,3 +776,100 @@ patch:
         patched: '2021-01-03T23:46:49.806Z'
     - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
         patched: '2021-01-03T23:46:49.806Z'
+    - cldr > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > superstatic > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > archiver > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - karma-sauce-launcher > sauce-connect-launcher > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > archiver > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > google-auto-auth > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > portfinder > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > archiver > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - karma-sauce-launcher > sauce-connect-launcher > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > superstatic > nash > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > archiver > zip-stream > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-conventionalcommits > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > firefox-profile > archiver > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > xml2js > xmlbuilder > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - madge > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - cldr-data-downloader > request > form-data > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > firefox-profile > archiver > async > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp-conventional-changelog > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firebase-tools > superstatic > glob-slasher > toxic > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - firefox-profile > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > firefox-profile > archiver > archiver-utils > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > firefox-profile > archiver > zip-stream > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > firefox-profile > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+    - madge > dependency-tree > precinct > detective-typescript > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+  'npm:hoek:20180212':
+    - jpm > sign-addon > request > hawk > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > sign-addon > jsonwebtoken > joi > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > sign-addon > request > hawk > boom > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > sign-addon > request > hawk > sntp > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > sign-addon > jsonwebtoken > joi > topo > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+    - jpm > sign-addon > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-15T05:38:29.526Z'
+  'npm:lodash:20180130':
+    - jpm > fx-runner > lodash:
+        patched: '2021-03-15T05:38:29.526Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2021-03-15T05:38:29.526Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2021-03-15T05:38:29.526Z'
+  'npm:ms:20170412':
+    - jpm > sign-addon > jsonwebtoken > ms:
+        patched: '2021-03-15T05:38:29.526Z'
+  'npm:tunnel-agent:20170305':
+    - jpm > sign-addon > request > tunnel-agent:
+        patched: '2021-03-15T05:38:29.526Z'
