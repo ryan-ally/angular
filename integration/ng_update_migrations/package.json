@@ -7,7 +7,9 @@
     "build": "ng build",
     "test": "node ./test.js",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +23,8 @@
     "@angular/router": "file:../../dist/packages-dist/router",
     "rxjs": "file:../../node_modules/rxjs",
     "tslib": "file:../../node_modules/tslib",
-    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
+    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz",
+    "snyk": "^1.486.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "file:../../node_modules/@angular-devkit/build-angular",
@@ -36,11 +39,12 @@
     "glob": "7.1.4",
     "jasmine-core": "3.4.0",
     "jasmine-spec-reporter": "4.2.1",
-    "karma": "4.4.0",
+    "karma": "6.0.0",
     "karma-chrome-launcher": "2.2.0",
     "karma-jasmine": "2.0.1",
     "karma-jasmine-html-reporter": "1.4.2",
     "protractor": "file:../../node_modules/protractor",
     "typescript": "file:../../node_modules/typescript"
-  }
+  },
+  "snyk": true
 }
