@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - archiver > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - dgeni > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - dgeni-packages > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - eslint > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - archiver > async > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - archiver > zip-stream > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - dgeni-packages > dgeni > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - dgeni-packages > catharsis > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - eslint > inquirer > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - eslint > table > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > inquirer > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > archiver > async > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > portfinder > async > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > exegesis-express > exegesis > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > superstatic > nash > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - light-server > gaze > globule > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/types > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > webpack-dev-server > portfinder > async > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - firebase-tools > superstatic > glob-slasher > toxic > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
+    - karma-coverage > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-03-15T05:37:44.940Z'
+    - '@angular-devkit/build-angular > @jsdevtools/coverage-istanbul-loader > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-03-15T05:37:44.940Z'
