@@ -19,7 +19,8 @@
     "express": "4.16.4",
     "rxjs": "file:../../node_modules/rxjs",
     "typescript": "file:../../node_modules/typescript",
-    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
+    "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz",
+    "snyk": "^1.486.0"
   },
   "devDependencies": {
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
@@ -32,7 +33,7 @@
     "protractor": "file:../../node_modules/protractor",
     "puppeteer": "file:../../node_modules/puppeteer",
     "raw-loader": "0.5.1",
-    "webpack": "2.7.0"
+    "webpack": "4.0.0"
   },
   "//resolutions-comment": "Ensure a single version of webdriver-manager which comes from root node_modules that has already run webdriver-manager update",
   "resolutions": {
@@ -43,6 +44,9 @@
     "test": "yarn build && concurrently \"yarn serve\" \"yarn protractor\" --kill-others --success first",
     "serve": "node built/server-bundle.js",
     "preprotractor": "tsc -p e2e",
-    "protractor": "protractor e2e/protractor.config.js"
-  }
+    "protractor": "protractor e2e/protractor.config.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
