@@ -79,7 +79,9 @@
     "~~clean-generated": "node --eval \"require('shelljs').rm('-rf', 'src/generated')\"",
     "~~build": "ng build --configuration=stable",
     "post~~build": "yarn build-404-page",
-    "~~light-server": "light-server --bind=localhost --historyindex=/index.html --no-reload"
+    "~~light-server": "light-server --bind=localhost --historyindex=/index.html --no-reload",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "//engines-comment": "Keep this in sync with /package.json and /aio/tools/examples/shared/package.json",
   "engines": {
@@ -88,12 +90,12 @@
   },
   "private": true,
   "dependencies": {
-
-    "zone.js": "~0.11.3"
+    "zone.js": "~0.11.3",
+    "snyk": "^1.486.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.1100.1",
-    "@angular/cli": "11.0.1",
+    "@angular/cli": "11.1.0",
     "@angular/compiler-cli": "11.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/lunr": "^2.3.2",
@@ -110,10 +112,10 @@
     "dgeni": "^0.4.11",
     "dgeni-packages": "^0.28.4",
     "entities": "^1.1.1",
-    "eslint": "^3.19.0",
+    "eslint": "^4.18.2",
     "eslint-plugin-jasmine": "^2.2.0",
     "find-free-port": "^2.0.0",
-    "firebase-tools": "^8.14.1",
+    "firebase-tools": "^9.0.0",
     "fs-extra": "^2.1.2",
     "globby": "^6.1.0",
     "hast-util-is-element": "^1.0.0",
@@ -121,13 +123,13 @@
     "html": "^1.0.0",
     "ignore": "^3.3.3",
     "image-size": "^0.5.1",
-    "jasmine": "~3.6.0",
+    "jasmine": "~3.6.2",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "jsdom": "^9.12.0",
     "json-schema-traverse": "^0.4.1",
     "json5": "^1.0.1",
-    "karma": "~5.1.1",
+    "karma": "~6.0.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
@@ -135,14 +137,14 @@
     "light-server": "^2.6.2",
     "lighthouse": "^7.0.0",
     "lighthouse-logger": "^1.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "lunr": "^2.1.0",
     "npm-run-all": "^4.1.5",
     "protractor": "~7.0.0",
     "puppeteer": "5.4.1",
     "rehype": "^6.0.0",
     "rehype-slug": "^2.0.0",
-    "remark": "^9.0.0",
+    "remark": "^13.0.0",
     "remark-html": "^8.0.0",
     "rimraf": "^2.6.1",
     "semver": "^5.3.0",
@@ -159,5 +161,6 @@
     "watchr": "^3.0.1",
     "xregexp": "^4.0.0",
     "yargs": "^16.1.0"
-  }
+  },
+  "snyk": true
 }
