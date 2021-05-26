@@ -19,9 +19,9 @@
     "zone.js": "file:../../dist/zone.js-dist/archive/zone.js.tgz"
   },
   "devDependencies": {
-    "@angular/bazel": "file:../../dist/packages-dist/bazel",
+    "@angular/bazel": "11.0.0",
     "@angular/compiler": "file:../../dist/packages-dist/compiler",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "11.0.0",
     "@bazel/bazelisk": "file:../../node_modules/@bazel/bazelisk",
     "@bazel/karma": "2.2.0",
     "@bazel/protractor": "2.2.0",
@@ -30,7 +30,7 @@
     "@bazel/typescript": "2.2.0",
     "@types/jasmine": "2.8.8",
     "http-server": "0.12.0",
-    "karma": "4.4.1",
+    "karma": "5.0.8",
     "karma-chrome-launcher": "3.1.0",
     "karma-firefox-launcher": "1.2.0",
     "karma-jasmine": "2.0.1",
