@@ -64,7 +64,7 @@
     "npm-run-all": "4.1.5",
     "protractor": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/protractor_archive.tar.gz",
     "puppeteer": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/puppeteer_archive.tar.gz",
-    "serve": "11.2.0",
+    "serve": "12.0.0",
     "ts-node": "8.3.0",
     "tslint": "5.18.0",
     "typescript": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/typescript_archive.tar.gz"
