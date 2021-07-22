@@ -1,5 +1,5 @@
 # Image metadata and config
-FROM debian:buster-20210311-slim
+FROM debian:10.10-slim
 
 LABEL name="angular.io PR preview" \
       description="This image implements the PR preview functionality for angular.io." \
