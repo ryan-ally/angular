@@ -40,7 +40,7 @@
     "karma-chrome-launcher": "2.2.0",
     "karma-jasmine": "2.0.1",
     "karma-jasmine-html-reporter": "1.4.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "6.0.0",
     "typescript": "file:../../node_modules/typescript"
   }
 }
