@@ -32,7 +32,7 @@
     "protractor": "file:../../node_modules/protractor",
     "puppeteer": "file:../../node_modules/puppeteer",
     "raw-loader": "0.5.1",
-    "webpack": "2.7.0"
+    "webpack": "3.0.0"
   },
   "//resolutions-comment": "Ensure a single version of webdriver-manager which comes from root node_modules that has already run webdriver-manager update",
   "resolutions": {
