@@ -44,7 +44,7 @@
   "dependencies": {
     "@angular-devkit/architect": "0.1100.0-rc.1",
     "@angular-devkit/build-angular": "0.1100.0",
-    "@angular-devkit/build-optimizer": "0.1100.0-rc.1",
+    "@angular-devkit/build-optimizer": "0.1100.0",
     "@angular-devkit/core": "11.0.0-rc.1",
     "@angular-devkit/schematics": "11.0.0-rc.1",
     "@babel/cli": "^7.12.10",
@@ -130,7 +130,7 @@
     "magic-string": "0.25.4",
     "materialize-css": "1.0.0",
     "minimatch": "^3.0.4",
-    "minimist": "1.2.3",
+    "minimist": "1.2.6",
     "node-fetch": "^2.6.1",
     "node-uuid": "1.4.8",
     "nodejs-websocket": "^1.7.2",
