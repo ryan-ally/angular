@@ -203,7 +203,7 @@
     "tslint-no-toplevel-property-access": "0.0.2",
     "tsutils": "2.27.2",
     "typed-graphqlify": "^2.3.0",
-    "universal-analytics": "0.4.15",
+    "universal-analytics": "0.4.16",
     "vlq": "0.2.2",
     "vrsource-tslint-rules": "5.1.1"
   },
