@@ -149,7 +149,7 @@
     "source-map-support": "0.5.19",
     "sourcemap-codec": "^1.4.8",
     "systemjs": "0.21.6",
-    "terser": "^4.4.0",
+    "terser": "^4.8.1",
     "tsickle": "0.38.1",
     "tslib": "^2.0.0",
     "tslint": "6.1.3",
