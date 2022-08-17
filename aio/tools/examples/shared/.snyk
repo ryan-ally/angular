@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -200,6 +200,10 @@ patch:
         patched: '2021-03-15T05:36:55.294Z'
     - lite-server > lodash:
         patched: '2021-03-15T05:36:55.294Z'
+    - lite-server > browser-sync > portscanner > async > lodash:
+        patched: '2022-08-10T22:20:49.889Z'
+    - lite-server > browser-sync > easy-extender > lodash:
+        patched: '2022-08-10T22:20:49.889Z'
   'npm:debug:20170905':
     - lite-server > browser-sync > connect > debug:
         patched: '2021-03-15T05:36:55.294Z'
