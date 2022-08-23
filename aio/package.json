@@ -79,7 +79,9 @@
     "~~clean-generated": "node --eval \"require('shelljs').rm('-rf', 'src/generated')\"",
     "~~build": "ng build --configuration=stable",
     "post~~build": "yarn build-404-page",
-    "~~light-server": "light-server --bind=localhost --historyindex=/index.html --no-reload"
+    "~~light-server": "light-server --bind=localhost --historyindex=/index.html --no-reload",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "//engines-comment": "Keep this in sync with /package.json and /aio/tools/examples/shared/package.json",
   "engines": {
@@ -88,11 +90,11 @@
   },
   "private": true,
   "dependencies": {
-
-    "zone.js": "~0.11.3"
+    "zone.js": "~0.11.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.1102.13",
+    "@angular-devkit/build-angular": "13.0.0",
     "@angular/cli": "11.0.5",
     "@angular/compiler-cli": "11.0.0",
     "@types/jasmine": "~3.6.0",
@@ -110,7 +112,7 @@
     "dgeni": "^0.4.11",
     "dgeni-packages": "^0.28.4",
     "entities": "^1.1.1",
-    "eslint": "^4.18.2",
+    "eslint": "^5.0.0",
     "eslint-plugin-jasmine": "^2.2.0",
     "find-free-port": "^2.0.0",
     "firebase-tools": "^11.4.1",
@@ -127,13 +129,13 @@
     "jsdom": "^9.12.0",
     "json-schema-traverse": "^0.4.1",
     "json5": "^1.0.1",
-    "karma": "~6.0.0",
+    "karma": "~6.3.16",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "light-server": "^2.6.2",
-    "lighthouse": "^7.5.0",
+    "lighthouse": "^9.3.0",
     "lighthouse-logger": "^1.2.0",
     "lodash": "^4.17.21",
     "lunr": "^2.1.0",
@@ -143,15 +145,15 @@
     "rehype": "^6.0.0",
     "rehype-slug": "^2.0.0",
     "remark": "^13.0.0",
-    "remark-html": "^8.0.0",
+    "remark-html": "^13.0.2",
     "rimraf": "^2.6.1",
     "semver": "^5.3.0",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "tree-kill": "^1.1.0",
     "ts-node": "^8.4.1",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2",
-    "uglify-js": "^3.0.15",
+    "uglify-js": "^3.14.3",
     "unist-util-filter": "^0.2.1",
     "unist-util-source": "^1.0.1",
     "unist-util-visit": "^1.1.1",
@@ -159,5 +161,6 @@
     "watchr": "^3.0.1",
     "xregexp": "^4.0.0",
     "yargs": "^16.1.0"
-  }
+  },
+  "snyk": true
 }
