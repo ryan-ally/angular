@@ -19,7 +19,7 @@
     "concurrently": "3.4.0",
     "google-closure-compiler": "file:../../node_modules/google-closure-compiler",
     "lite-server": "2.2.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "6.0.0",
     "puppeteer": "file:../../node_modules/puppeteer",
     "tsickle": "file:../../node_modules/tsickle"
   },
