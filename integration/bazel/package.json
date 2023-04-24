@@ -36,7 +36,7 @@
     "karma-jasmine": "2.0.1",
     "karma-requirejs": "1.1.0",
     "karma-sourcemap-loader": "0.3.7",
-    "protractor": "5.4.2",
+    "protractor": "6.0.0",
     "requirejs": "2.3.6",
     "rollup": "1.27.5",
     "rollup-plugin-commonjs": "10.1.0",
