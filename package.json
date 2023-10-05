@@ -43,7 +43,7 @@
   "// 1": "dependencies are used locally and by bazel",
   "dependencies": {
     "@angular-devkit/architect": "0.1100.0-rc.1",
-    "@angular-devkit/build-angular": "0.1100.0",
+    "@angular-devkit/build-angular": "14.2.13",
     "@angular-devkit/build-optimizer": "0.1100.0-rc.1",
     "@angular-devkit/core": "11.0.0-rc.1",
     "@angular-devkit/schematics": "11.0.0-rc.1",
@@ -60,7 +60,7 @@
     "@bazel/rollup": "2.3.1",
     "@bazel/terser": "2.3.1",
     "@bazel/typescript": "2.3.1",
-    "@microsoft/api-extractor": "7.12.1",
+    "@microsoft/api-extractor": "7.36.3",
     "@octokit/rest": "16.43.2",
     "@octokit/types": "^5.0.1",
     "@schematics/angular": "11.0.0-rc.1",
