@@ -36,11 +36,11 @@
     "glob": "7.1.4",
     "jasmine-core": "3.4.0",
     "jasmine-spec-reporter": "4.2.1",
-    "karma": "4.4.0",
+    "karma": "5.0.0",
     "karma-chrome-launcher": "2.2.0",
     "karma-jasmine": "2.0.1",
     "karma-jasmine-html-reporter": "1.4.2",
-    "protractor": "file:../../node_modules/protractor",
+    "protractor": "5.4.4",
     "typescript": "file:../../node_modules/typescript"
   }
 }
