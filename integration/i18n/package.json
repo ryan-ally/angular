@@ -16,9 +16,9 @@
   "devDependencies": {
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
-    "concurrently": "3.4.0",
+    "concurrently": "6.0.2",
     "google-closure-compiler": "file:../../node_modules/google-closure-compiler",
-    "lite-server": "2.2.2",
+    "lite-server": "2.6.0",
     "protractor": "file:../../node_modules/protractor",
     "puppeteer": "file:../../node_modules/puppeteer",
     "tsickle": "file:../../node_modules/tsickle"
