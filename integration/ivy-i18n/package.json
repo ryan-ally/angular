@@ -27,7 +27,9 @@
     "translated:legacy-xlf:update-translations": "node scripts/update-xlf-translation-file.js \"../tmp/legacy-locales/messages.legacy.xlf\"",
     "translated:legacy-xmb:test": "yarn ng build && yarn extract --format xmb --outputPath ../tmp/legacy-locales/messages.legacy.xmb && yarn translated:legacy-xmb:update-translations && yarn ng build --configuration=translated-legacy-xmb && yarn translated:legacy:translate -t \"../tmp/legacy-locales/messages.legacy.xtb\" && yarn translated:legacy:e2e",
     "translated:legacy-xmb:update-translations": "node scripts/update-xmb-translation-file.js \"../tmp/legacy-locales/messages.legacy.xmb\"",
-    "extract": "localize-extract --source dist/main-es2015*.js"
+    "extract": "localize-extract --source dist/main-es2015*.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -43,7 +45,8 @@
     "core-js": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/core-js_archive.tar.gz",
     "rxjs": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/rxjs_archive.tar.gz",
     "tslib": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/tslib_archive.tar.gz",
-    "zone.js": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/angular/packages/zone.js/npm_package_archive.tar.gz"
+    "zone.js": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/angular/packages/zone.js/npm_package_archive.tar.gz",
+    "snyk": "^1.486.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/angular-devkit_build-angular_archive.tar.gz",
@@ -56,7 +59,7 @@
     "codelyzer": "5.2.0",
     "jasmine-core": "3.5.0",
     "jasmine-spec-reporter": "4.2.1",
-    "karma": "4.4.0",
+    "karma": "6.0.0",
     "karma-chrome-launcher": "3.1.0",
     "karma-coverage-istanbul-reporter": "2.1.0",
     "karma-jasmine": "2.0.1",
@@ -72,5 +75,6 @@
   "//resolutions-comment": "Ensure a single version of webdriver-manager which comes from root node_modules that has already run webdriver-manager update",
   "resolutions": {
     "**/webdriver-manager": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/webdriver-manager_archive.tar.gz"
-  }
+  },
+  "snyk": true
 }
