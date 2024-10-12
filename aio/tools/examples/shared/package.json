@@ -42,7 +42,7 @@
     "angular-in-memory-web-api": "~0.11.0",
     "angular-route": "1.8.0",
     "core-js": "^2.5.4",
-    "express": "^4.15.2",
+    "express": "^4.21.1",
     "rxjs": "~6.6.0",
     "systemjs": "0.19.39",
     "tslib": "^2.0.0",
@@ -50,9 +50,9 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.2",
+    "@angular-devkit/build-angular": "~12.0.0",
     "@angular/cli": "~12.2.14",
-    "@angular/compiler-cli": "~11.0.1",
+    "@angular/compiler-cli": "~18.2.8",
     "@nguniversal/builders": "^11.0.0",
     "@types/angular": "1.7.3",
     "@types/angular-animate": "1.5.10",
