@@ -26,7 +26,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "0.901.9",
     "@angular/cli": "9.0.0",
-    "@angular/compiler-cli": "file:../../dist/packages-dist/compiler-cli",
+    "@angular/compiler-cli": "9.1.0",
     "@angular/language-service": "file:../../dist/packages-dist/language-service",
     "@types/jasmine": "file:../../node_modules/@types/jasmine",
     "@types/jasminewd2": "file:../../node_modules/@types/jasminewd2",
