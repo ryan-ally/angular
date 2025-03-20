@@ -20,3 +20,8 @@ patch:
         patched: '2021-03-15T05:28:47.879Z'
     - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2021-03-15T05:28:47.879Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2021-03-17T23:04:50.533Z'
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2021-03-17T23:04:50.533Z'
