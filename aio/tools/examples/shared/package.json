@@ -50,10 +50,10 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.2",
-    "@angular/cli": "~12.2.14",
+    "@angular-devkit/build-angular": "~12.0.0",
+    "@angular/cli": "~18.0.0",
     "@angular/compiler-cli": "~11.0.1",
-    "@nguniversal/builders": "^11.0.0",
+    "@nguniversal/builders": "^15.0.0",
     "@types/angular": "1.7.3",
     "@types/angular-animate": "1.5.10",
     "@types/angular-mocks": "1.7.0",
@@ -78,7 +78,7 @@
     "lite-server": "^2.6.0",
     "lodash": "^4.17.21",
     "protractor": "~7.0.0",
-    "puppeteer": "5.4.1",
+    "puppeteer": "22.8.2",
     "rimraf": "^2.5.4",
     "rollup": "^1.1.0",
     "rollup-plugin-commonjs": "^9.2.1",
