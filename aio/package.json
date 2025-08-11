@@ -95,7 +95,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "13.2.0",
-    "@angular/cli": "11.0.5",
+    "@angular/cli": "18.1.0",
     "@angular/compiler-cli": "11.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/lunr": "^2.3.2",
@@ -112,7 +112,7 @@
     "dgeni": "^0.4.11",
     "dgeni-packages": "^0.28.4",
     "entities": "^1.1.1",
-    "eslint": "^5.0.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-jasmine": "^2.2.0",
     "find-free-port": "^2.0.0",
     "firebase-tools": "^11.4.1",
