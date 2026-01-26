@@ -43,7 +43,7 @@
   "// 1": "dependencies are used locally and by bazel",
   "dependencies": {
     "@angular-devkit/architect": "0.1100.0-rc.1",
-    "@angular-devkit/build-angular": "0.1100.0",
+    "@angular-devkit/build-angular": "16.2.0",
     "@angular-devkit/build-optimizer": "0.1100.0-rc.1",
     "@angular-devkit/core": "11.0.0-rc.1",
     "@angular-devkit/schematics": "11.0.0-rc.1",
@@ -109,7 +109,7 @@
     "convert-source-map": "^1.5.1",
     "core-js": "^2.4.1",
     "dependency-graph": "^0.7.2",
-    "diff": "^3.5.0",
+    "diff": "^8.0.3",
     "domino": "2.1.2",
     "fs-extra": "4.0.2",
     "google-closure-compiler": "20200517.0.0",
@@ -182,7 +182,7 @@
     "firefox-profile": "4.1.0",
     "glob": "7.1.2",
     "gulp": "4.0.0",
-    "gulp-conventional-changelog": "^2.0.3",
+    "gulp-conventional-changelog": "^5.0.0",
     "husky": "5.0.1",
     "inquirer": "^7.3.3",
     "inquirer-autocomplete-prompt": "^1.0.2",
@@ -205,7 +205,7 @@
     "typed-graphqlify": "^2.3.0",
     "universal-analytics": "0.4.15",
     "vlq": "0.2.2",
-    "vrsource-tslint-rules": "5.1.1"
+    "vrsource-tslint-rules": "5.8.3"
   },
   "// 4": "Overwrite graceful-fs to a version that does not rely on the 'natives' package. This fixes gulp for >= 10.13, more information: #28213",
   "// 5": "Ensure a single version of webdriver-manager so it is hoisted as the integration tests depend on it being found at ../../node_modules/webdriver-manager",
