@@ -66,7 +66,7 @@
     "puppeteer": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/puppeteer_archive.tar.gz",
     "serve": "11.2.0",
     "ts-node": "8.3.0",
-    "tslint": "5.18.0",
+    "tslint": "5.20.0",
     "typescript": "file:/private/var/tmp/_bazel_pete/f9acfb7f019473a10a34c8c30adc55ea/execroot/angular/bazel-out/darwin-fastbuild/bin/integration/ivy-i18n_test.debug.sh.runfiles/npm/typescript_archive.tar.gz"
   },
   "//resolutions-comment": "Ensure a single version of webdriver-manager which comes from root node_modules that has already run webdriver-manager update",
