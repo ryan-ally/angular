@@ -94,8 +94,8 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "19.2.0",
-    "@angular/cli": "12.0.0",
+    "@angular-devkit/build-angular": "20.3.30",
+    "@angular/cli": "20.3.29",
     "@angular/compiler-cli": "11.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/lunr": "^2.3.2",
@@ -112,7 +112,7 @@
     "dgeni": "^0.4.11",
     "dgeni-packages": "^0.28.4",
     "entities": "^1.1.1",
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-jasmine": "^2.2.0",
     "find-free-port": "^2.0.0",
     "firebase-tools": "^13.29.2",
@@ -122,7 +122,7 @@
     "hast-util-to-string": "^1.0.0",
     "html": "^1.0.0",
     "ignore": "^3.3.3",
-    "image-size": "^0.5.1",
+    "image-size": "^2.0.3",
     "jasmine": "~3.6.2",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
